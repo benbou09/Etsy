@@ -1,3 +1,8 @@
+import urllib
+import pandas as pd
+import json
+import os
+
 API_KEY = 'xxxxxxxxxxxxxxxxxxxxxx' # API key is we you get when you register to the API
 ETSY_API_VERSION = 'https://openapi.etsy.com/v2'
 
