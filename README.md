@@ -1,6 +1,6 @@
 # Etsy
 
-A very simplified wrapper written in Python for the Etsy API (https://www.etsy.com/developers/documentation). It requires Pandas
+A very simplified wrapper written in Python for the Etsy API (https://www.etsy.com/developers/documentation). It requires pandas.
 
 First, you will need to 'open a session' by entering your Etsy api key (which you get for free once you register to the Etsy developer website):
 
@@ -8,9 +8,9 @@ First, you will need to 'open a session' by entering your Etsy api key (which yo
 
 
 3 functions based on the Etsy API functions have been implemented:
-- getUser(user, columns=[]) # user can be either the user_id or login_name / by default, all columns will be imported
+- getUser(user, columns=[]) # user can be either the user_id or login_name / by default, all columns will be imported, unless specific columns names are defined
 - findAllUserShops(user, columns=[])
-- findAllShopListingsActive(shop, columns=[])# shop can be either the shop_id or login_name
+- findAllShopListingsActive(shop, columns=[])
 
 These functions return a pandas DataFrame, for instance:
 
